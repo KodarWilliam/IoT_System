@@ -7,6 +7,8 @@ IoT Enheten kommunicerar med MQTT genom att göra en publish till mqtt-broker.
 API: Flask API som lyssnar på mqtt-broker genom subscribe till samma topic som IoT-enhet
 /get endpoint förser applikation med data från IoT-enheten
 
+API-gateway: APISIX används som gateway för APIt
+
 Klient: klient genom en applikation byggd med Tkinter som hämtar information från API och skriver ut information för sensorn
 i applikationen finns det S1-S5 som simulerar 5st temp sensorer (notera att endast S1 fungerar då det endast finns en IoT enhet)
 
